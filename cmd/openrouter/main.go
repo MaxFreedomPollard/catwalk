@@ -284,9 +284,11 @@ func main() {
 			canReason := slices.Contains(model.SupportedParams, "reasoning")
 			supportsImages := slices.Contains(model.Architecture.InputModalities, "image")
 
+			reasoningSettings := catwalk.ReasoningSettingsNone
 			var reasoningLevels []string
 			var defaultReasoning string
 			if canReason {
+				reasoningSettings = catwalk.ReasoningSettingsLevels
 				reasoningLevels = []string{"low", "medium", "high"}
 				defaultReasoning = "medium"
 			}
@@ -295,7 +297,7 @@ func main() {
 				Name:                   model.Name,
 				Pricing:                pricing,
 				ContextWindow:          model.ContextLength,
-				CanReason:              canReason,
+				ReasoningSettings:      reasoningSettings,
 				DefaultReasoningEffort: defaultReasoning,
 				ReasoningLevels:        reasoningLevels,
 				SupportsImages:         supportsImages,
@@ -351,9 +353,11 @@ func main() {
 		canReason := slices.Contains(bestEndpoint.SupportedParams, "reasoning")
 		supportsImages := slices.Contains(model.Architecture.InputModalities, "image")
 
+		reasoningSettings := catwalk.ReasoningSettingsNone
 		var reasoningLevels []string
 		var defaultReasoning string
 		if canReason {
+			reasoningSettings = catwalk.ReasoningSettingsLevels
 			reasoningLevels = []string{"low", "medium", "high"}
 			defaultReasoning = "medium"
 		}
@@ -362,7 +366,7 @@ func main() {
 			Name:                   model.Name,
 			Pricing:                pricing,
 			ContextWindow:          bestEndpoint.ContextLength,
-			CanReason:              canReason,
+			ReasoningSettings:      reasoningSettings,
 			DefaultReasoningEffort: defaultReasoning,
 			ReasoningLevels:        reasoningLevels,
 			SupportsImages:         supportsImages,

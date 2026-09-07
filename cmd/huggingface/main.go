@@ -171,10 +171,10 @@ func main() {
 					Input:  costPerTokenIn,
 					Output: costPerTokenOut,
 				},
-				ContextWindow:    contextLength,
-				DefaultMaxTokens: defaultMaxTokens,
-				CanReason:        false, // Not provided by HF Router
-				SupportsImages:   false, // Not provided by HF Router
+				ContextWindow:     contextLength,
+				DefaultMaxTokens:  defaultMaxTokens,
+				ReasoningSettings: catwalk.ReasoningSettingsNone, // Not provided by HF Router
+				SupportsImages:    false,                         // Not provided by HF Router
 			}
 
 			hfProvider.Models = append(hfProvider.Models, m)

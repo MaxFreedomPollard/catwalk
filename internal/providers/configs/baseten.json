@@ -17,7 +17,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 384000,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "none",
         "low",
@@ -37,7 +37,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 262144,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "high",
         "xhigh"
@@ -55,7 +55,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 262144,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "none",
         "low",
@@ -75,7 +75,7 @@
       },
       "context_window": 200000,
       "default_max_tokens": 200000,
-      "can_reason": false,
+      "reasoning_settings": "none",
       "supports_attachments": false
     },
     {
@@ -88,7 +88,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 32768,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "none",
         "high",
@@ -107,7 +107,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 262144,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "medium",
@@ -126,7 +126,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 262144,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "high",
@@ -145,7 +145,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 131072,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "high",
@@ -164,7 +164,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 32768,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "none",
         "minimal",
@@ -186,7 +186,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 32768,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "medium",
@@ -205,7 +205,7 @@
       },
       "context_window": 262000,
       "default_max_tokens": 262000,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "medium",
@@ -224,7 +224,7 @@
       },
       "context_window": 262000,
       "default_max_tokens": 32768,
-      "can_reason": true,
+      "reasoning_settings": "thinking",
       "supports_attachments": true
     },
     {
@@ -237,7 +237,7 @@
       },
       "context_window": 1048576,
       "default_max_tokens": 262144,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "high",
@@ -256,7 +256,7 @@
       },
       "context_window": 202800,
       "default_max_tokens": 202800,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "medium",
@@ -275,7 +275,7 @@
       },
       "context_window": 128072,
       "default_max_tokens": 128072,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "none",
         "minimal",

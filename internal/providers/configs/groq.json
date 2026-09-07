@@ -17,7 +17,7 @@
         "cache_hit": 0.5
       },
       "context_window": 131072,
-      "can_reason": true,
+      "reasoning_settings": "reasoning_levels",
       "reasoning_levels": [
         "low",
         "medium",
@@ -34,7 +34,8 @@
         "output": 0.59
       },
       "context_window": 131072,
-      "default_max_tokens": 10000
+      "default_max_tokens": 10000,
+      "reasoning_settings": "none"
     }
   ]
 }

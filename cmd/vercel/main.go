@@ -146,9 +146,11 @@ func main() {
 		// Check if model supports reasoning
 		canReason := slices.Contains(model.Tags, "reasoning")
 
+		reasoningSettings := catwalk.ReasoningSettingsNone
 		var reasoningLevels []string
 		var defaultReasoning string
 		if canReason {
+			reasoningSettings = catwalk.ReasoningSettingsLevels
 			switch {
 			case strings.HasPrefix(model.ID, "anthropic/"):
 				reasoningLevels = []string{"none", "minimal", "low", "medium", "high", "xhigh"}
@@ -179,7 +181,7 @@ func main() {
 			},
 			ContextWindow:          model.ContextWindow,
 			DefaultMaxTokens:       cmp.Or(model.MaxTokens, model.ContextWindow/10),
-			CanReason:              canReason,
+			ReasoningSettings:      reasoningSettings,
 			ReasoningLevels:        reasoningLevels,
 			DefaultReasoningEffort: defaultReasoning,
 			SupportsImages:         supportsImages,

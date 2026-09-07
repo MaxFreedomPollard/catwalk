@@ -19,7 +19,7 @@
             },
             "context_window": 131072,
             "default_max_tokens": 25000,
-            "can_reason": true,
+            "reasoning_settings": "reasoning_levels",
             "reasoning_levels": [
                 "low",
                 "medium",
@@ -37,7 +37,7 @@
             },
             "context_window": 131072,
             "default_max_tokens": 25000,
-            "can_reason": true,
+            "reasoning_settings": "reasoning_levels",
             "reasoning_levels": [
                 "low",
                 "medium",
