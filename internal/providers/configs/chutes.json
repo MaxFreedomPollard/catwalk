@@ -23,7 +23,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731-TEE",
@@ -41,7 +41,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.1-TEE",
@@ -59,7 +59,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.2-TEE",
@@ -77,7 +77,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2.6-TEE",
@@ -95,7 +95,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "moonshotai/Kimi-K3-TEE",
@@ -113,7 +115,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Thinking-2507-TEE",
@@ -131,7 +135,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-32B-TEE",
@@ -149,7 +153,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.5-397B-A17B-TEE",
@@ -167,7 +171,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "Qwen/Qwen3.6-27B-TEE",
@@ -185,7 +191,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "Qwen/Qwen3.8-27B-TEE",
@@ -203,7 +211,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "google/gemma-4-31B-turbo-TEE",
@@ -221,7 +231,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     }
   ]
 }

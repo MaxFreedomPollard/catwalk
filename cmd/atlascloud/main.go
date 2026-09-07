@@ -190,7 +190,7 @@ func main() {
 			CostPer1MOutCached: costPer1MCacheRead,
 			ContextWindow:      model.ContextLength,
 			DefaultMaxTokens:   defaultMaxTokens,
-			SupportsImages:     supportsImages,
+			Capabilities:       catwalk.Capabilities{Vision: supportsImages},
 		}
 
 		atlasCloudProvider.Models = append(atlasCloudProvider.Models, m)

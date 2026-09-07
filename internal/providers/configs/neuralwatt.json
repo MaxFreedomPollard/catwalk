@@ -23,7 +23,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-v4-flash-flex",
@@ -41,7 +41,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.3",
@@ -59,7 +59,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2",
@@ -77,7 +77,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "xhigh",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2-fast",
@@ -95,7 +95,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "xhigh",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2-flex",
@@ -113,7 +113,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "xhigh",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2-short",
@@ -131,7 +131,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "xhigh",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2-short-fast",
@@ -149,7 +149,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "xhigh",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2-short-fast-flex",
@@ -167,7 +167,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "xhigh",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2-short-flex",
@@ -185,7 +185,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "xhigh",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "gemma-4-31b",
@@ -203,7 +203,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kimi-k2.7-code",
@@ -215,7 +217,9 @@
       "context_window": 262128,
       "default_max_tokens": 26212,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kimi-k2.7-code-flex",
@@ -227,7 +231,9 @@
       "context_window": 262128,
       "default_max_tokens": 26212,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kimi-k2.7-code-fast",
@@ -239,7 +245,9 @@
       "context_window": 262128,
       "default_max_tokens": 26212,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kimi-k3",
@@ -257,7 +265,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kimi-k3-flex",
@@ -275,7 +285,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kimi-k3-fast",
@@ -287,7 +299,9 @@
       "context_window": 1048560,
       "default_max_tokens": 104856,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.6-35b",
@@ -305,7 +319,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.6-35b-fast",
@@ -317,7 +333,9 @@
       "context_window": 131056,
       "default_max_tokens": 13105,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     }
   ]
 }

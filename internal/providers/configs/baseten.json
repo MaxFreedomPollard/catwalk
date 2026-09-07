@@ -24,7 +24,7 @@
         "max"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
@@ -41,7 +41,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
@@ -60,7 +60,7 @@
         "max"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7",
@@ -72,7 +72,7 @@
       "context_window": 200000,
       "default_max_tokens": 200000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.2",
@@ -90,7 +90,9 @@
         "max"
       ],
       "default_reasoning_effort": "max",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "zai-org/GLM-5.2-Fast",
@@ -108,7 +110,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "zai-org/GLM-5.3",
@@ -126,7 +130,7 @@
         "max"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.3-Flash",
@@ -144,7 +148,9 @@
         "max"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "thinkingmachines/inkling",
@@ -165,7 +171,9 @@
         "xhigh"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "thinkingmachines/inkling-small",
@@ -183,7 +191,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "moonshotai/Kimi-K2.6",
@@ -201,7 +211,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "moonshotai/Kimi-K2.7-Code",
@@ -213,7 +225,9 @@
       "context_window": 262000,
       "default_max_tokens": 32768,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "moonshotai/Kimi-K3",
@@ -231,7 +245,9 @@
         "max"
       ],
       "default_reasoning_effort": "max",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
@@ -249,7 +265,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -271,7 +287,7 @@
         "max"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     }
   ]
 }

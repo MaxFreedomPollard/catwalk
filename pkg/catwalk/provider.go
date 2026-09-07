@@ -85,6 +85,13 @@ type ModelOptions struct {
 	ProviderOptions  map[string]any `json:"provider_options,omitempty"`
 }
 
+// Capabilities describes the capabilities of a model. Capabilities set to
+// false are omitted from the JSON representation, so a model without any
+// capability is serialized as an empty object.
+type Capabilities struct {
+	Vision bool `json:"vision,omitempty"`
+}
+
 // Model represents an AI model configuration.
 type Model struct {
 	ID                     string       `json:"id"`
@@ -98,7 +105,7 @@ type Model struct {
 	CanReason              bool         `json:"can_reason"`
 	ReasoningLevels        []string     `json:"reasoning_levels,omitempty"`
 	DefaultReasoningEffort string       `json:"default_reasoning_effort,omitempty"`
-	SupportsImages         bool         `json:"supports_attachments"`
+	Capabilities           Capabilities `json:"capabilities"`
 	Options                ModelOptions `json:"options,omitzero"`
 }
 

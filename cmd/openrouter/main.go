@@ -310,7 +310,7 @@ func main() {
 				CanReason:              canReason,
 				DefaultReasoningEffort: defaultReasoning,
 				ReasoningLevels:        reasoningLevels,
-				SupportsImages:         supportsImages,
+				Capabilities:           catwalk.Capabilities{Vision: supportsImages},
 			}
 			if model.TopProvider.MaxCompletionTokens != nil {
 				m.DefaultMaxTokens = *model.TopProvider.MaxCompletionTokens / 2
@@ -380,7 +380,7 @@ func main() {
 			CanReason:              canReason,
 			DefaultReasoningEffort: defaultReasoning,
 			ReasoningLevels:        reasoningLevels,
-			SupportsImages:         supportsImages,
+			Capabilities:           catwalk.Capabilities{Vision: supportsImages},
 		}
 
 		// Set max tokens based on the best endpoint

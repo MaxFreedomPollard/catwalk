@@ -17,7 +17,9 @@
       "context_window": 256000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.5-27b",
@@ -29,7 +31,9 @@
       "context_window": 256000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.6-flash",
@@ -41,7 +45,9 @@
       "context_window": 1000000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.6-plus",
@@ -53,7 +59,9 @@
       "context_window": 1000000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.6-max-preview",
@@ -65,7 +73,7 @@
       "context_window": 256000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "qwen3.7-flash",
@@ -77,7 +85,9 @@
       "context_window": 1000000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.7-plus",
@@ -89,7 +99,9 @@
       "context_window": 1000000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.7-max",
@@ -101,7 +113,7 @@
       "context_window": 1000000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "qwen3.8-max",
@@ -113,7 +125,9 @@
       "context_window": 1000000,
       "default_max_tokens": 65536,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.8-flash",
@@ -125,7 +139,9 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.8-27b",
@@ -137,7 +153,9 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": true,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen3.8-2.4t-a95b",
@@ -149,7 +167,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.2",
@@ -166,7 +184,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "glm-5.1",
@@ -183,7 +201,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "kimi-k3",
@@ -201,7 +219,9 @@
         "max"
       ],
       "default_reasoning_effort": "max",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kimi-k2.7-code",
@@ -213,7 +233,9 @@
       "context_window": 256000,
       "default_max_tokens": 16000,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "deepseek-v4-pro",
@@ -230,7 +252,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-v4-pro-0813",
@@ -248,7 +270,7 @@
         "max"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-v4-flash",
@@ -265,7 +287,7 @@
         "xhigh"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-v4-flash-0731",
@@ -283,7 +305,7 @@
         "max"
       ],
       "default_reasoning_effort": "high",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-v3.2",
@@ -295,7 +317,7 @@
       "context_window": 128000,
       "default_max_tokens": 64000,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     }
   ]
 }

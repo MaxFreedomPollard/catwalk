@@ -19,7 +19,9 @@
       "can_reason": true,
       "reasoning_levels": ["none", "low", "medium", "high", "xhigh", "max"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.6-terra",
@@ -33,7 +35,9 @@
       "can_reason": true,
       "reasoning_levels": ["none", "low", "medium", "high", "xhigh", "max"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.6-luna",
@@ -47,7 +51,9 @@
       "can_reason": true,
       "reasoning_levels": ["none", "low", "medium", "high", "xhigh", "max"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.5",
@@ -61,7 +67,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high", "xhigh"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.5-pro",
@@ -75,7 +83,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high", "xhigh"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.4",
@@ -89,7 +99,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high", "xhigh"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.4-pro",
@@ -103,7 +115,9 @@
       "can_reason": true,
       "reasoning_levels": ["medium", "high", "xhigh"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.4-mini",
@@ -117,7 +131,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high", "xhigh"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.4-nano",
@@ -131,7 +147,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high", "xhigh"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.3-codex",
@@ -145,7 +163,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.2",
@@ -159,7 +179,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.2-codex",
@@ -173,7 +195,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.1",
@@ -187,7 +211,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.1-codex",
@@ -201,7 +227,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.1-codex-max",
@@ -215,7 +243,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5.1-codex-mini",
@@ -229,7 +259,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5-codex",
@@ -243,7 +275,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5",
@@ -257,7 +291,9 @@
       "can_reason": true,
       "reasoning_levels": ["minimal", "low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5-mini",
@@ -271,7 +307,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5-nano",
@@ -285,7 +323,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "o4-mini",
@@ -299,7 +339,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "o3",
@@ -313,7 +355,9 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4.1",
@@ -325,7 +369,9 @@
       "context_window": 1047576,
       "default_max_tokens": 16384,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4.1-mini",
@@ -337,7 +383,9 @@
       "context_window": 1047576,
       "default_max_tokens": 16384,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4.1-nano",
@@ -349,7 +397,9 @@
       "context_window": 1047576,
       "default_max_tokens": 16384,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "o3-mini",
@@ -363,7 +413,7 @@
       "can_reason": true,
       "reasoning_levels": ["low", "medium", "high"],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "gpt-4o",
@@ -375,7 +425,9 @@
       "context_window": 128000,
       "default_max_tokens": 8192,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4o-mini",
@@ -388,7 +440,9 @@
       "default_max_tokens": 8192,
       "can_reason": false,
       "reasoning_effort": "",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     }
   ]
 }

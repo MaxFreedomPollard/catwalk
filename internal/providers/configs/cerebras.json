@@ -24,7 +24,7 @@
                 "high"
             ],
             "default_reasoning_effort": "medium",
-            "supports_attachments": false
+            "capabilities": {}
         },
         {
             "id": "gemma-4-31b",
@@ -40,7 +40,9 @@
                 "high"
             ],
             "default_reasoning_effort": "medium",
-            "supports_attachments": true,
+            "capabilities": {
+              "vision": true
+            },
             "temperature": 1,
             "top_p": 0.95
         }

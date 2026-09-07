@@ -17,7 +17,7 @@
       "context_window": 131072,
       "default_max_tokens": 13107,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
@@ -29,7 +29,7 @@
       "context_window": 131072,
       "default_max_tokens": 13107,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/deepseek-v3.2",
@@ -41,7 +41,7 @@
       "context_window": 163840,
       "default_max_tokens": 16384,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp",
@@ -53,7 +53,7 @@
       "context_window": 163840,
       "default_max_tokens": 16384,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/deepseek-v4-flash",
@@ -65,7 +65,7 @@
       "context_window": 1048576,
       "default_max_tokens": 104857,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/deepseek-v4-flash-0731",
@@ -77,7 +77,7 @@
       "context_window": 1048576,
       "default_max_tokens": 104857,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/deepseek-v4-flash-vision-exp",
@@ -89,7 +89,9 @@
       "context_window": 1048576,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "deepseek-ai/deepseek-v4-pro",
@@ -101,7 +103,7 @@
       "context_window": 1048576,
       "default_max_tokens": 104857,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/deepseek-v4-pro-0813",
@@ -113,7 +115,7 @@
       "context_window": 1048576,
       "default_max_tokens": 104857,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.6",
@@ -125,7 +127,7 @@
       "context_window": 202752,
       "default_max_tokens": 20275,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/glm-4.7",
@@ -137,7 +139,7 @@
       "context_window": 202752,
       "default_max_tokens": 20275,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/glm-5.1",
@@ -149,7 +151,7 @@
       "context_window": 202752,
       "default_max_tokens": 20275,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/glm-5.2",
@@ -161,7 +163,7 @@
       "context_window": 1048576,
       "default_max_tokens": 65536,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/glm-5.3",
@@ -173,7 +175,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/glm-5v-turbo",
@@ -185,7 +187,9 @@
       "context_window": 202752,
       "default_max_tokens": 20275,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "tencent/hy3",
@@ -197,7 +201,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "kwaipilot/kat-coder-air-v2.5",
@@ -209,7 +213,9 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "kwaipilot/kat-coder-pro-v2",
@@ -221,7 +227,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "kwaipilot/kat-coder-pro-v2.5",
@@ -233,7 +239,9 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "moonshotai/kimi-k2.5",
@@ -245,7 +253,9 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "moonshotai/kimi-k2.6",
@@ -257,7 +267,9 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "meituan-longcat/longcat-2.0",
@@ -269,7 +281,7 @@
       "context_window": 1048756,
       "default_max_tokens": 131072,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "minimaxai/minimax-m2.5",
@@ -281,7 +293,7 @@
       "context_window": 196608,
       "default_max_tokens": 19660,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "minimaxai/minimax-m2.7",
@@ -293,7 +305,7 @@
       "context_window": 196608,
       "default_max_tokens": 19660,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -305,7 +317,7 @@
       "context_window": 131072,
       "default_max_tokens": 13107,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "qwen/qwen3.5-122b-a10b",
@@ -317,7 +329,9 @@
       "context_window": 262144,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen/qwen3.5-27b",
@@ -329,7 +343,9 @@
       "context_window": 262144,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen/qwen3.5-35b-a3b",
@@ -341,7 +357,9 @@
       "context_window": 262144,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen/qwen3.5-397b-a17b",
@@ -353,7 +371,9 @@
       "context_window": 262144,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen/qwen3.6-35b-a3b",
@@ -365,7 +385,9 @@
       "context_window": 262144,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "qwen/qwen3.6-plus",
@@ -377,7 +399,7 @@
       "context_window": 1000000,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     }
   ]
 }

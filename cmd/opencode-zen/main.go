@@ -200,7 +200,7 @@ func main() {
 			CostPer1MOutCached:     costPer1MOutCached,
 			ContextWindow:          contextWindow,
 			DefaultMaxTokens:       defaultMaxTokens,
-			SupportsImages:         supportsImages,
+			Capabilities:           catwalk.Capabilities{Vision: supportsImages},
 			CanReason:              canReason,
 			ReasoningLevels:        reasoningLevels,
 			DefaultReasoningEffort: defaultReasoningEffort,

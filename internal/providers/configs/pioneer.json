@@ -17,7 +17,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "claude-haiku-4-5",
@@ -29,7 +29,7 @@
       "context_window": 200000,
       "default_max_tokens": 50000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "claude-opus-5",
@@ -41,7 +41,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "claude-opus-5-fast",
@@ -53,7 +53,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "claude-sonnet-5",
@@ -65,7 +65,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
@@ -83,7 +83,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "fastino/Fastino-Nemotron-3.5-Lightning-Finance",
@@ -95,7 +95,7 @@
       "context_window": 8192,
       "default_max_tokens": 4096,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "fastino/Fastino-Nemotron-3.5-Lightning-Healthcare",
@@ -107,7 +107,7 @@
       "context_window": 8192,
       "default_max_tokens": 4096,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.2",
@@ -119,7 +119,7 @@
       "context_window": 131072,
       "default_max_tokens": 32768,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "gpt-5.5",
@@ -131,7 +131,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "gpt-5.6-luna",
@@ -143,7 +143,7 @@
       "context_window": 1050000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "gpt-5.6-sol",
@@ -155,7 +155,7 @@
       "context_window": 1050000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "gpt-5.6-terra",
@@ -167,7 +167,7 @@
       "context_window": 1050000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K3",
@@ -179,7 +179,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K3-Fast",
@@ -191,7 +191,7 @@
       "context_window": 1000000,
       "default_max_tokens": 128000,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
@@ -203,7 +203,7 @@
       "context_window": 8192,
       "default_max_tokens": 4096,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "HuggingFaceTB/SmolLM2-360M-Instruct",
@@ -215,7 +215,7 @@
       "context_window": 2048,
       "default_max_tokens": 4096,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     }
   ]
 }

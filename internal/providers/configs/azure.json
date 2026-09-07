@@ -24,7 +24,9 @@
         "high"
       ],
       "default_reasoning_effort": "minimal",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5-mini",
@@ -42,7 +44,9 @@
         "high"
       ],
       "default_reasoning_effort": "low",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-5-nano",
@@ -60,7 +64,9 @@
         "high"
       ],
       "default_reasoning_effort": "low",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "codex-mini-latest",
@@ -78,7 +84,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "o4-mini",
@@ -92,7 +100,9 @@
       "can_reason": true,
       "has_reasoning_efforts": true,
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "o3",
@@ -110,7 +120,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "o3-pro",
@@ -128,7 +140,9 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4.1",
@@ -140,7 +154,9 @@
       "context_window": 1047576,
       "default_max_tokens": 50000,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4.1-mini",
@@ -152,7 +168,9 @@
       "context_window": 1047576,
       "default_max_tokens": 50000,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4.1-nano",
@@ -164,7 +182,9 @@
       "context_window": 1047576,
       "default_max_tokens": 50000,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4.5-preview",
@@ -176,7 +196,9 @@
       "context_window": 128000,
       "default_max_tokens": 50000,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "o3-mini",
@@ -194,7 +216,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "gpt-4o",
@@ -206,7 +228,9 @@
       "context_window": 128000,
       "default_max_tokens": 20000,
       "can_reason": false,
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     },
     {
       "id": "gpt-4o-mini",
@@ -219,7 +243,9 @@
       "default_max_tokens": 20000,
       "can_reason": false,
       "reasoning_effort": "",
-      "supports_attachments": true
+      "capabilities": {
+        "vision": true
+      }
     }
   ]
 }

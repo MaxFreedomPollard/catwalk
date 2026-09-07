@@ -17,7 +17,7 @@
       "context_window": 163840,
       "default_max_tokens": 16384,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash",
@@ -29,7 +29,7 @@
       "context_window": 32768,
       "default_max_tokens": 3276,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.7",
@@ -41,7 +41,7 @@
       "context_window": 262100,
       "default_max_tokens": 6553,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -53,7 +53,7 @@
       "context_window": 262100,
       "default_max_tokens": 6553,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
@@ -65,7 +65,7 @@
       "context_window": 1048576,
       "default_max_tokens": 60000,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "google/gemma-4-26b-a4b-it",
@@ -77,7 +77,7 @@
       "context_window": 256000,
       "default_max_tokens": 25600,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Intel/Qwen3-Coder-480B-A35B-Instruct-int4-mixed-ar",
@@ -89,7 +89,7 @@
       "context_window": 106000,
       "default_max_tokens": 10600,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
@@ -101,7 +101,7 @@
       "context_window": 430000,
       "default_max_tokens": 43000,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "meta-llama/Llama-3.3-70B-Instruct",
@@ -113,7 +113,7 @@
       "context_window": 128000,
       "default_max_tokens": 12800,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "MiniMaxAI/MiniMax-M2.5",
@@ -125,7 +125,7 @@
       "context_window": 196600,
       "default_max_tokens": 19660,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2-Instruct-0905",
@@ -137,7 +137,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2-Thinking",
@@ -149,7 +149,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2.5",
@@ -161,7 +161,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2.6",
@@ -173,7 +173,7 @@
       "context_window": 262142,
       "default_max_tokens": 26214,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K2.7-Code",
@@ -185,7 +185,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "moonshotai/Kimi-K3",
@@ -197,7 +197,7 @@
       "context_window": 1048576,
       "default_max_tokens": 104857,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-oss-120b",
@@ -215,7 +215,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "openai/gpt-oss-20b",
@@ -233,7 +233,7 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
@@ -245,7 +245,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.6-27B",
@@ -257,7 +257,7 @@
       "context_window": 32768,
       "default_max_tokens": 3276,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.6-35B-A3B",
@@ -269,7 +269,7 @@
       "context_window": 262144,
       "default_max_tokens": 26214,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "Qwen/Qwen3.8-27B",
@@ -281,7 +281,7 @@
       "context_window": 65536,
       "default_max_tokens": 6553,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "XiaomiMiMo/MiMo-V2.5",
@@ -293,7 +293,7 @@
       "context_window": 1048576,
       "default_max_tokens": 104857,
       "can_reason": false,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.6",
@@ -305,7 +305,7 @@
       "context_window": 131072,
       "default_max_tokens": 13107,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7",
@@ -317,7 +317,7 @@
       "context_window": 202752,
       "default_max_tokens": 20275,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.7-Flash",
@@ -329,7 +329,7 @@
       "context_window": 200000,
       "default_max_tokens": 20000,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5",
@@ -341,7 +341,7 @@
       "context_window": 202752,
       "default_max_tokens": 20275,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.1",
@@ -353,7 +353,7 @@
       "context_window": 202750,
       "default_max_tokens": 3276,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.2",
@@ -365,7 +365,7 @@
       "context_window": 262144,
       "default_max_tokens": 13107,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.3",
@@ -377,7 +377,7 @@
       "context_window": 262144,
       "default_max_tokens": 13107,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-5.3-Flash",
@@ -389,7 +389,7 @@
       "context_window": 262144,
       "default_max_tokens": 13107,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     },
     {
       "id": "zai-org/GLM-4.5-Air",
@@ -401,7 +401,7 @@
       "context_window": 131070,
       "default_max_tokens": 13107,
       "can_reason": true,
-      "supports_attachments": false
+      "capabilities": {}
     }
   ]
 }

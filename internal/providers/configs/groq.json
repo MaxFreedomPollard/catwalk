@@ -22,7 +22,8 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
-      "default_max_tokens": 10000
+      "default_max_tokens": 10000,
+      "capabilities": {}
     },
     {
       "id": "qwen/qwen3-32b",
@@ -30,7 +31,8 @@
       "cost_per_1m_in": 0.29,
       "cost_per_1m_out": 0.59,
       "context_window": 131072,
-      "default_max_tokens": 10000
+      "default_max_tokens": 10000,
+      "capabilities": {}
     }
   ]
 }
